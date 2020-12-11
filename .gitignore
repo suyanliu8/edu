@@ -1,0 +1,10 @@
+.project
+.settings/
+./**/.project
+./**/bin/
+target/
+*.class
+*.log
+./**/target/
+./**/.settings/
+
