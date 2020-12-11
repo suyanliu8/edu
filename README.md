@@ -9,3 +9,12 @@ maven2(hosted),edu-snapshot,snapshot,allow redeploy
 maven2(proxy),alimaven,http://maven.aliyun.com/nexus/content/groups/public/
 maven2(group),edu-group, edu-release|edu-snapshot|alimaven
 
+
+----------------------------------------------------------
+取消 git reset --hard 提交
+
+删除远程目录
+git rm -r --cached 目录
+git commit -m " del " 
+git push
+
