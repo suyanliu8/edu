@@ -9,16 +9,20 @@
 		<relativePath/> 
 	</parent>
 	<groupId>com.gloomyfish</groupId>
-	<artifactId>edu-core</artifactId>
+	<artifactId>edu-plugin-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>edu-core</name>
-	<description>edu core</description>
+	<name>edu-plugin-demo</name>
+	<description>edu plugin-demo</description>
 	<packaging>jar</packaging>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.gloomyfish</groupId>
+			<artifactId>edu-core</artifactId>
+		</dependency>
 	</dependencies>
 </project>
 

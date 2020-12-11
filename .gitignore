@@ -7,4 +7,5 @@ target/
 *.log
 ./**/target/
 ./**/.settings/
-
+./**/.classpath
+**/.classpath
